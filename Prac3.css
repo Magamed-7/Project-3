@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+}
+
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* Header */
+header {
+    background-image: url(./1.png);
+    height: 100vh;
+    width: 100%;
+    background-position: 70% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.total-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 20px;
+    padding-right: 40px;
+}
+.nav-in {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-in a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+    /* Header left */
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;            /* WIDTH */
+    padding: 120px 20px;       
+}
+.header-left h1 {
+    font-size: 48px;
+    color: aliceblue;
+}
+.header-left p {
+    font-size: 18px;
+    color: rgba(210, 210, 210, 1);
+}
+.header-left button {
+    padding: 10px;
+    width: 171px;
+    height: 50px;
+    background-color: rgba(14, 158, 47, 1);
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+}
+.whats {
+    position: absolute;
+    top: 672px;
+    left: 1385px;
+}
+
+/* Part one */
+.sec1 {
+    background-color: rgba(104, 104, 104, 1);
+    padding: 40px 20px;
+}
+.sec1 h1 {
+    font-size: 48px;
+    color: aliceblue;
+}
+.sec1 p {
+    color: rgba(210, 210, 210, 1);
+    font-size: 18px;
+    width: 40%;
+    padding-bottom: 50px;
+}
+.sec1-card {
+    background-image: url(./Rectangle\ 42.png);
+    background-repeat: no-repeat;
+    height: 413px;
+    padding: 20px;
+    color: aliceblue;
+    width: 360px;
+}
+.sec1-card h2 {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.sec1-card p {
+    width: 85%;                         /* Width */
+}
+.sec1-card button {
+    padding: 10px;
+    width: 171px;
+    height: 50px;
+    background-color: rgba(14, 158, 47, 1);
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+}
+.sec1-cards {
+    display: flex;
+    gap: 30px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Second part */
+
+.sec2 {
+    padding: 60px 20px;
+}
+.sec2 h1 {
+    font-size: 40px;
+    color: rgba(73, 75, 68, 1);
+    text-align: center;
+    padding: 30px 0;
+}
+.sec2-cards {
+    display: grid;
+    grid-template-columns: 350px 760px;
+    grid-template-rows: 384px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.sec2-cards img {
+    width: 760px;
+    height: 404px;
+    border-radius: 2px;
+}
+.sec2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sec2-left h2 {
+    font-size: 30px;
+    color: rgba(14, 158, 47, 1);
+}
+.sec2-left p {
+    font-size: 20px;
+    color: rgba(146, 147, 143, 1);
+}
+
+    /* Second cards */
+.sec2-second-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 361px);
+    grid-template-rows: 186px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.sec2-second-cards img {
+    width: 361px;
+    height: 186px;
+    border-radius: 2px;
+}
+
+/* THird part */
+
+.sec3 {
+    background-image: url(./19.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 80%;                                /* WIDTH */
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.sec3-left {
+    width: 40%;                            /* WIDTH */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: aliceblue;
+}
+.sec3-left h1 {
+    font-size: 40px;
+}
+.sec3-left-in {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sec3-left-in a {
+    color: rgba(14, 158, 47, 1);
+    font-size: 20px;
+    text-decoration: none;
+}
+.sec3-left p {
+    color: rgba(210, 210, 210, 1);
+    font-size: 22px;
+}
+    /* Right part */
+.sec3-right {
+    background-image: url(./21.png);
+    width: 40%;                               /* WIDTH */
+    height: 98.3%;
+    padding: 25px;
+    border-radius: 0 20% 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+.sec3-right h2 {
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+.sec3-right p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.block {
+    display: none;
+}
+
+@media (max-width: 510px) {
+    .hidden {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+
+    /* Header */
+    .header {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .header-left {
+        width: 90%;
+    }
+    .whats {
+        top: 623px;
+        left: 406px;
+    }
+    .nav-inn {
+        font-size: 62px;
+        color: rgba(14, 158, 47, 1);
+    }
+    .header-left button {
+        width: 90%;
+    }
+
+    /* Part one */
+    .sec1 p {
+        width: 95%;
+    }
+    .sec1 h1 {
+        padding-bottom: 15px;
+    }
+    .sec1-cards {
+        width: 100%;
+        overflow: auto;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .sec1-card {
+        min-width: auto;
+        width: auto;
+    }
+    .strel {
+        display: flex;
+        align-items: end;
+        gap: 25px;
+        padding-bottom: 20px;
+        justify-content: right;
+    }
+
+    /* Second part */
+    .sec2-mob {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 60px 20px;
+    }
+    .sec2-mob h1 {
+        font-size: 28px;
+        color: rgba(73, 75, 68, 1);
+        text-align: center;
+    }
+    .sec2-mob select {
+        width: 80%;
+        background-color: rgba(14, 158, 47, 1);
+        color: aliceblue;
+        margin: auto;
+        height: 40px;
+    }
+    .sec2-mob img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .sec2-mob h2 {
+        color: rgba(73, 75, 68, 1);
+        font-size: 24px;
+    }
+    .sec2-mob p {
+        font-size: 16px;
+        color: rgba(146, 147, 143, 1);
+    }
+
+    /* Part three */
+    .sec3 {
+        flex-direction: column;
+        width: 94%;
+        margin: 0;
+        height: auto;
+        padding: 15px;
+        margin-bottom: 60px;
+    }
+    .sec3-left {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .sec3-right {
+        width: 92%;
+        height: 70vh;
+        gap: 60px;
+    }
+    
+}
