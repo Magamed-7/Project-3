@@ -285,8 +285,65 @@ header {
     color: aliceblue;
 }
 
+/* Part six */
 
+.sec6 {
+    padding: 60px 80px;                           /* PADDING */
+}
+.sec6-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(73, 75, 68, 1);
+}
+.sec6-top h1 {
+    font-size: 40px;
+    color: rgba(73, 75, 68, 1);
+}
+.six-cards {
+    display: flex;
+    gap: 40px;
+    overflow: auto;
+    width: 100%;
+    margin: 40px 0;
+}
+.sec6-card {
+    width: 25%;
+    padding: 25px 20px;
+    background-color: rgba(246, 246, 247, 1);
 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: auto;
+    min-width: 25%;
+    
+}
+.sec6-card h2 {
+    font-size: 24px;
+    color: rgba(73, 75, 68, 1);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c1bebe;
+}
+.sec6-card span {
+    color: rgba(14, 158, 47, 1);
+    font-size: 20px;
+}
+.sec6-card p {
+    font-size: 16px;
+    color: rgba(146, 147, 143, 1);
+}
+.sec6-card-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec6-card-in a {
+    color: rgba(14, 158, 47, 1);
+    font-size: 18px;
+    text-decoration: none;
+}
 
 
 .block {
@@ -410,5 +467,11 @@ header {
         margin-bottom: 40px;
         border-bottom: 4px solid rgba(104, 104, 104, 1);
     }
-    
+    /* Part six */
+    .sec6-card {
+        min-width: 80%;
+    }
+    .sec6-top {
+        border: none;
+    }
 }
